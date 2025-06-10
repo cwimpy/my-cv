@@ -111,6 +111,7 @@
           #reference-entry(
             name: ref.name,
             title: ref.title,
+            subtitle: if "subtitle" in ref { ref.subtitle } else { "" },  // Handle subtitle
             institution: ref.institution,
             address: ref.address,
             phone: ref.phone,
@@ -123,6 +124,7 @@
           #reference-entry(
             name: ref.name,
             title: ref.title,
+            subtitle: if "subtitle" in ref { ref.subtitle } else { "" },  // Handle subtitle
             institution: ref.institution,
             address: ref.address,
             phone: ref.phone,

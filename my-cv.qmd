@@ -798,21 +798,12 @@ for (i in 1:length(bib)) {
   (
   name: "Dr. Guy D. Whitten",
   title: "Professor and Head of Political Science",
-  subtitle: "TEST SUBTITLE",  // Make it obvious
+  subtitle: "Bob Bullock Chair in Public Policy and Finance",
   institution: "Texas A&M University",
   address: "College Station, TX 77843",
-  phone: "(979) 845-8753",
-  email: "guy.whitten@tamu.edu"
+  phone: "(979) 845-8833",
+  email: "g-whitten@tamu.edu"
   ),
-  (
-  name: "Dr. Guy D. Whitten",
-  title: "Professor and Head of Political Science",
-  subtitle: "TEST SUBTITLE",  // Make it obvious
-  institution: "Texas A&M University",
-  address: "College Station, TX 77843",
-  phone: "(979) 845-8753",
-  email: "guy.whitten@tamu.edu"
-),
   (
     name: "Dr. Laron K. Williams",
     title: "Frederick A. Middlebush Chair of Political Science", 
