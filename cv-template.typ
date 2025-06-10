@@ -60,6 +60,7 @@
 #let reference-entry(
   name: "",
   title: "",
+  subtitle: "",  // New parameter for second title line
   institution: "",
   address: "",
   phone: "",
@@ -71,6 +72,10 @@
     #linebreak()
     #text(fill: color-gray)[
       #title
+      #if subtitle != "" [
+        #linebreak()
+        #subtitle
+      ]
       #linebreak()
       #institution
       #if address != "" [

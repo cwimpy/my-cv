@@ -7,7 +7,7 @@ lastname: "Wimpy"
 affiliation: "Department of Political Science | Your University"
 address: "PO Box 1750, State University, AR 72467"
 phone: "(870) 972-2147"
-email: "cwimpy@university.edu"
+email: "cwimpy@astate.edu"
 website: "www.cameronwimpy.com"
 websiteurl: "https://www.cwimpy.com"
 websitedisplay: "cwimpy.com"
@@ -770,39 +770,58 @@ for (i in 1:length(bib)) {
 
 ```{=typst}
 #let my-references = (
-  (
-    name: "Dr. Guy D. Whitten",
-    title: "Professor of Political Science",
-    institution: "Texas A&M University",
-    address: "College Station, TX 77843",
-    phone: "(979) 845-8753",
-    email: "guy.whitten@tamu.edu"
+    (
+    name: "Dr. William P. McLean", 
+    title: "Senior Vice Provost for Academic Affairs",
+    institution: "Arkansas State University",
+    address: "State University, AR 72467",
+    phone: "(870) 972-2104",
+    email: "wmclean@astate.edu"
   ),
   (
     name: "Dr. Kenneth J. Meier", 
-    title: "Charles H. Gregory Chair in Liberal Arts",
+    title: "Distinguished Scholar in Residence",
     institution: "American University",
     address: "Washington, DC 20016",
-    phone: "(202) 885-6230",
+    phone: "(202) 885-2361",
     email: "kmeier@american.edu"
   ),
   (
     name: "Dr. Charles Stewart III",
     title: "Kenan Sahin Distinguished Professor",
+    subtitle: "Founding Director of MIT Election Data and Science Lab",
     institution: "Massachusetts Institute of Technology",
     address: "Cambridge, MA 02139",
     phone: "(617) 253-2579",
     email: "cstewart@mit.edu"
   ),
   (
+  name: "Dr. Guy D. Whitten",
+  title: "Professor and Head of Political Science",
+  subtitle: "TEST SUBTITLE",  // Make it obvious
+  institution: "Texas A&M University",
+  address: "College Station, TX 77843",
+  phone: "(979) 845-8753",
+  email: "guy.whitten@tamu.edu"
+  ),
+  (
+  name: "Dr. Guy D. Whitten",
+  title: "Professor and Head of Political Science",
+  subtitle: "TEST SUBTITLE",  // Make it obvious
+  institution: "Texas A&M University",
+  address: "College Station, TX 77843",
+  phone: "(979) 845-8753",
+  email: "guy.whitten@tamu.edu"
+),
+  (
     name: "Dr. Laron K. Williams",
-    title: "Associate Professor of Political Science", 
+    title: "Frederick A. Middlebush Chair of Political Science", 
     institution: "University of Missouri",
     address: "Columbia, MO 65211",
-    phone: "(573) 882-2082",
+    phone: "(573) 882-2820",
     email: "williamslaro@missouri.edu"
   )
 )
 
-#references-section(my-references, show-references: false)
+#references-section(my-references, show-references: true)
 ```
