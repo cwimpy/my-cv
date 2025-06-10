@@ -1,0 +1,808 @@
+---
+format:
+  typst:
+    template: cv-template.typ
+firstname: "Cameron"
+lastname: "Wimpy"
+affiliation: "Department of Political Science | Your University"
+address: "PO Box 1750, State University, AR 72467"
+phone: "(870) 972-2147"
+email: "cwimpy@university.edu"
+website: "www.cameronwimpy.com"
+websiteurl: "https://www.cwimpy.com"
+websitedisplay: "cwimpy.com"
+github: "https://github.com/cwimpy"
+githubhandle: "cwimpy"
+linkedin: "https://www.linkedin.com/in/cwimpy/"
+linkedinhandle: "cwimpy"
+twitter: "https://x.com/camwimpy"
+twitterhandle: "camwimpy"
+orcidurl: "https://orcid.org/0000-0002-2049-5229"
+orcidhandle: "0000-0002-2049-5229"
+google-scholar: "https://scholar.google.com/citations?user=LRQ7rpwAAAAJ&hl=en"
+google-scholarhandle: "Google Scholar"
+bibliography: publications.bib
+showrefs: true
+---
+
+# Academic Appointments
+
+```{=typst}
+#cv-entry(
+  title: "Associate Professor and Chair of Department of Government, Law & Policy",
+  organization: "Arkansas State University",
+  location: "Jonesboro, AR",
+  dates: "2023–present",
+  indent: true
+)
+
+#cv-entry(
+  title: "Director of the Institute for Rural Initiatives",
+  organization: "Arkansas State University",
+  location: "Jonesboro, AR",
+  dates: "2022–present",
+)
+
+#cv-entry(
+  title: "Assistant Professor of Political Science",
+  organization: "Arkansas State University",
+  location: "Jonesboro, AR",
+  dates: "2019–2023",
+)
+
+#cv-entry(
+  title: "Research Director of MIT Election Data and Science Lab",
+  organization: "Massachusetts Institute of Technology",
+  location: "Cambridge, MA",
+  dates: "2017–2019",
+)
+
+#cv-entry(
+  title: "Pre/Post-Doctoral Researcher in Political Science",
+  organization: "Texas A&M University",
+  location: "College Station, TX",
+  dates: "2013–2014",
+)
+```
+# Education
+
+```{=typst}
+#cv-entry(
+  title: "Ph.D. in Political Science",
+  organization: "Texas A&M University",
+  location: "College Station, TX",
+  dates: "2014"
+)
+
+#cv-entry(
+  title: "M.A. in Political Science",
+  organization: "Arkansas State University",
+  location: "Jonesboro, AR",
+  dates: "2009"
+  )
+  
+#cv-entry(
+  title: "B.A. in Political Science",
+  organization: "Arkansas State University",
+  location: "Jonesboro, AR",
+  dates: "2007"
+  )
+```
+
+
+```{r}
+#| echo: false
+#| eval: false
+
+# This R chunk is for your reference to help create the Typst code below
+# You can run this in R console to generate the Typst syntax, then copy/paste it
+
+library(RefManageR)
+bib <- ReadBib("publications.bib")
+
+for (i in 1:length(bib)) {
+  entry <- bib[[i]]
+  cat("  (\n")
+  cat("    type: \"", tolower(attr(entry, "bibtype")), "\",\n", sep="")
+  
+  if (!is.null(entry$author)) {
+    authors <- paste(format(entry$author), collapse = " and ")
+    authors <- gsub("\\{|\\}", "", authors)
+    cat("    author: \"", authors, "\",\n", sep="")
+  }
+  
+  if (!is.null(entry$title)) {
+    title <- gsub("\\{|\\}", "", as.character(entry$title))
+    cat("    title: \"", title, "\",\n", sep="")
+  }
+  
+  if (!is.null(entry$journal)) {
+    journal <- gsub("\\{|\\}", "", as.character(entry$journal))
+    cat("    journal: \"", journal, "\",\n", sep="")
+  }
+  
+  if (!is.null(entry$year)) {
+    cat("    year: \"", as.character(entry$year), "\",\n", sep="")
+  }
+  
+  if (!is.null(entry$volume)) {
+    cat("    volume: \"", as.character(entry$volume), "\",\n", sep="")
+  }
+  
+  if (!is.null(entry$number)) {
+    cat("    number: \"", as.character(entry$number), "\",\n", sep="")
+  }
+  
+  if (!is.null(entry$pages)) {
+    cat("    pages: \"", as.character(entry$pages), "\"\n", sep="")
+  }
+  
+  cat("  )")
+  if (i < length(bib)) cat(",")
+  cat("\n")
+}
+```
+# Research
+
+## Publications
+*\* indicates equal authorship; author order is alphabetical*
+
+```{=typst}
+#let my-publications = (
+  // Journal Articles
+  (
+    type: "article",
+    author: "Lisa Schur and Mason Ameri and Joseph Dietrich and Michael Herron and Douglas Kruse and Whitney Quesenbery and Melissa Rogers and Jean Schroedel and Daniel A. Smith and Cameron Wimpy",
+    title: "Ensuring Voting Access Across the Electorate",
+    journal: "Journal of Election Administration Research & Practice",
+    volume: "3",
+    year: "2025",
+    pages: "3--10",
+  ),
+  (
+    type: "article",
+    author: "Samuel Baltz and Alexander Agadjanian and Declan Chin and John Curiel and Kevin DeLuca and James Dunham and Jennifer Miranda and Connor Phillips and Annabel Uhlman and Cameron Wimpy and Marcos Zárate and Charles Stewart",
+    title: "American Election Results at the Precinct Level",
+    journal: "Nature: Scientific Data",
+    volume: "9",
+    number: "651",
+    year: "2022",
+    pages: "1--12",
+    doi: "10.1038/s41597-022-01745-0"
+  ),
+  (
+    type: "article",
+    author: "Cameron Wimpy",
+    title: "Political Failure and Bureaucratic Potential in Africa",
+    journal: "Journal of Policy Studies",
+    volume: "36",
+    number: "4",
+    year: "2021",
+    pages: "15--25",
+    doi: "10.52372/kjps36402"
+  ),
+  (
+    type: "article",
+    author: "Cameron Wimpy and Laron K. Willams and Guy D. Whitten",
+    title: "X Marks the Spot: Discovering the Treasure of Spatial-X Models",
+    journal: "The Journal of Politics",
+    volume: "83",
+    number: "2",
+    year: "2021",
+    pages: "722--739",
+    doi: "10.1086/710089",
+  ),
+  (
+    type: "article",
+    author: "Guy D. Whitten and Laron K. Williams and Cameron Wimpy",
+    title: "Interpretation: The Final Spatial Frontier",
+    journal: "Political Science Research and Methods",
+    volume: "9",
+    number: "1",
+    year: "2021",
+    pages: "140--156",
+    doi: "10.1017/psrm.2019.9",
+    note: "equal authorship" 
+  ),
+  (
+    type: "article",
+    author: "Charles Stewart III and R. Michael Alvarez and Stephen Pettigrew and Cameron Wimpy",
+    title: "Abstention, Protest, and Residual Votes in the 2016 Election",
+    journal: "Social Science Quarterly",
+    volume: "101",
+    number: "2",
+    year: "2020",
+    pages: "925--939",
+    doi: "10.1111/ssqu.12757"
+  ),
+  (
+    type: "article",
+    author: "Kenneth J. Meier and Mallory Compton and John Polga-Hecimovich and Miyeon Song and Cameron Wimpy",
+    title: "Bureaucracy and the Failure of Politics: Challenges to Democratic Governance",
+    journal: "Administration and Society",
+    volume: "51",
+    number: "10",
+    year: "2019",
+    pages: "1576--1605",
+    doi: "10.1177/0095399719874759"
+  ),
+  (
+    type: "article",
+    author: "Matthew W. Walker and Sarah A. Evans and Cameron Wimpy and Amanda Berger and Alexandria Smith",
+    title: "Developing Smokeless Tobacco Prevention Messaging for At-Risk Youth: Early Lessons from 'The Real Cost' Smokeless Campaign",
+    journal: "Health Equity",
+    volume: "2",
+    number: "1",
+    year: "2018",
+    pages: "167--173",
+    doi: "10.1089/heq.2018.0029"
+  ),
+  (
+    type: "article",
+    author: "Chris McKallagat and Flávio D. S. Souza and Jenifer Whitten-Woodring and Cameron Wimpy",
+    title: "Are Media at Work in Your Neighborhood? The Effect of Media Freedom, Internet Access and Information Spillover on Workers' Rights",
+    journal: "Social Science Quarterly",
+    volume: "98",
+    number: "3",
+    year: "2017",
+    pages: "1078--1098",
+    doi: "10.1111/ssqu.12443",
+    note: "equal authorship" 
+  ),
+  (
+    type: "article",
+    author: "Cameron Wimpy and Guy D. Whitten",
+    title: "What Is and What May Never Be: Economic Voting in Developing Democracies",
+    journal: "Social Science Quarterly",
+    volume: "98",
+    number: "3",
+    year: "2017",
+    pages: "1099--1111",
+    doi: "10.1111/ssqu.12444"
+  ),
+  (
+    type: "article",
+    author: "Blake E. Garcia and Cameron Wimpy",
+    title: "Does Information Lead to Emulation? Spatial Dependence in Anti-Government Violence",
+    journal: "Political Science Research and Methods",
+    volume: "4",
+    number: "1",
+    year: "2016",
+    pages: "27--46",
+    doi: "10.1017/psrm.2014.18",
+    note: "equal authorship"
+  ),
+  
+  // Book Chapters
+  (
+    type: "incollection",
+    author: "Amanda M. Carpenter and Cameron Wimpy",
+    title: "Rural and other minority populations",
+    booktitle: "Pandemic Resilience: Vaccination Resistance and Hesitance, Lessons from COVID-19",
+    editor: "David Berube",
+    publisher: "Springer Nature",
+    address: "New York",
+    year: "2024"
+  ),
+  (
+    type: "incollection",
+    author: "Amanda M. Carpenter and Cameron Wimpy",
+    title: "The politicization of COVID-19 and implications for public health",
+    booktitle: "Pandemic Resilience: Vaccination Resistance and Hesitance, Lessons from COVID-19",
+    editor: "David Berube",
+    publisher: "Springer Nature",
+    address: "New York",
+    year: "2024",
+    note: "equal authorship"
+  ),
+  (
+    type: "incollection",
+    author: "Cameron Wimpy and Marlette Jackson and Kenneth J. Meier",
+    title: "Administrative Capacity and Health Care in Africa: Path Dependence as a Contextual Variable",
+    booktitle: "Context and Government Performance: Public Management in Comparative Perspective",
+    editor: "Amanda Rutherford and Claudia Avellaneda and Kenneth J. Meier",
+    publisher: "Georgetown University Press",
+    address: "Washington DC",
+    year: "2017",
+    pages: "27--48"
+  ),
+  (
+    type: "incollection",
+    author: "Guy D. Whitten and Cameron Wimpy",
+    title: "Stata and Political Science",
+    booktitle: "Thirty Years with Stata: A Retrospective",
+    editor: "Enrique Pinzon",
+    publisher: "Stata Press",
+    address: "College Station",
+    year: "2015",
+    pages: "121--125",
+    note: "equal authorship"
+  )
+)
+
+#display-publications-from-data(
+  publications: my-publications,
+  bold-name: "Cameron Wimpy",
+  reverse-numbering: true,
+  categories: (
+    ("article", "Journal Articles"),
+    ("incollection", "Book Chapters")
+  )
+)
+```
+
+## Essays & Reviews
+```{=typst}
+#let my-essays = (
+  (
+    type: "article",
+    author: "Irvin D. Reid and Cameron Wimpy",
+    title: "Defining Opposition: An Interview with Afonso Dhlakama of RENAMO",
+    journal: "Ufahamu: A Journal of African Studies",
+    volume: "37",
+    number: "1",
+    year: "2013"
+  ),
+  (
+    type: "article",
+    author: "Cameron Wimpy",
+    title: "The 2009 Presidential and Parliamentary Elections in Mozambique",
+    journal: "Electoral Studies",
+    volume: "30",
+    number: "2",
+    year: "2011",
+    pages: "366--368",
+    doi: "10.1016/j.electstud.2011.02.004"
+  ),
+  (
+    type: "article",
+    author: "Cameron Wimpy",
+    title: "Review of: Valeri, Marc. 2010. 'Oman: Politics and Society in the Qaboos State'",
+    journal: "Digest of Middle East Studies",
+    volume: "19",
+    number: "2", 
+    year: "2010",
+    pages: "340--341",
+    doi: "10.1111/j.1949-3606.2010.00052.x"
+  )
+)
+
+#display-publications-from-data(
+  publications: my-essays,
+  bold-name: "Cameron Wimpy",
+  reverse-numbering: true,
+  categories: ()
+)
+```
+
+<!-- ## Selected Works in Progress -->
+<!-- ```{=typst} -->
+<!-- #cv-entry( -->
+<!--   title: "Modeling Time and Space Together", -->
+<!--   dates: "In Progress", -->
+<!--   description: "With Andrea Junqueira, Ali Kagalwala, Guy D. Whitten, and Laron K. Williams" -->
+<!-- ) -->
+
+<!-- #cv-entry( -->
+<!--   title: "Examining Rurality as a Predictor of Health Behavior and Outcomes: An Analysis of County Health Rankings, 2011–2021", -->
+<!--   dates: "In Progress",  -->
+<!--   description: "With Amanda M. Carpenter" -->
+<!-- ) -->
+<!-- ``` -->
+
+## Research Interests
+```{=typst}
+#service-list(("Comparative Public Administration & Policy", "Election Administration", "Political Economy", "Political Methodology", "Spatial Econometrics"))
+```
+
+# Grants
+```{=typst}
+#cv-entry(
+  title: "Ensuring Usability/Disability Access within the Voting Experience",
+  organization: "MIT Election Data and Science Lab and The Pew Charitable Trusts",
+  dates: "2023",
+  description: "Sub-grant from Rutgers University, $10,000",
+  small: true
+)
+
+#cv-entry(
+  title: "Exploring Rural Election Administration with Special Attention to the Mississippi River Delta",
+  organization: "MIT Election Data and Science Lab and The Pew Charitable Trusts",
+  dates: "2022",
+  description: "$95,173",
+  small: true
+)
+
+#cv-entry(
+  title: "Vaccine Hesitancy Among College and University Students in Arkansas",
+  organization: "Arkansas Department of Health",
+  dates: "2022",
+  description: "CDC sub-award, $32,042, co-PI with Amanda M. Carpenter"
+)
+
+#cv-entry(
+  title: "Should We Stay or Should We Go Now? Examining Americans' Attitudes Towards Separation and Unity",
+  organization: "Arkansas State University Faculty Research Grant",
+  dates: "2021",
+  description: "$10,000, co-PI with William P. McLean"
+)
+
+#cv-entry(
+  title: "Developing a Public Health Preparedness Dashboard for Rural Communities",
+  organization: "Arkansas Biosciences Institute",
+  dates: "2020",
+  description: "$12,583, co-PI with Amanda M. Carpenter"
+)
+
+#cv-entry(
+  title: "Liberal Arts Professional Development Grant",
+  organization: "Texas A&M University",
+  dates: "2014",
+  description: "$6,331"
+)
+
+#cv-entry(
+  title: "Liberal Arts Faculty-Student Collaboration Grant",
+  organization: "Texas A&M University",
+  dates: "2013",
+  description: "$2,000, with Kenneth J. Meier"
+)
+
+#cv-entry(
+  title: "Liberal Arts Vision 2020 Dissertation Enhancement Award",
+  organization: "Texas A&M University",
+  dates: "2013",
+  description: "$5,000"
+)
+
+#cv-entry(
+  title: "Liberal Arts Professional Development Grant",
+  organization: "Texas A&M University",
+  dates: "2012",
+  description: "$4,000"
+)
+
+#cv-entry(
+  title: "Fieldwork grants for research in South Sudan",
+  organization: "Texas A&M University",
+  dates: "2010–2011",
+  description: "$5,000"
+)
+#pagebreak()
+#cv-entry(
+  title: "Middle East Studies grant for Arabic study and fieldwork in Yemen",
+  organization: "Arkansas State University",
+  dates: "2009",
+  description: "$5,000"
+)
+
+#cv-entry(
+  title: "Middle East Studies grant for Arabic study and fieldwork in Oman and the United Arab Emirates",
+  organization: "Arkansas State University",
+  dates: "2006",
+  description: "$5,000"
+)
+```
+
+# Teaching
+## Teaching Interests
+```{=typst}
+#service-list(("African Politics", "Comparative Public Policy", "Political Economy", "International Relations", "Research Methods"))
+```
+
+## Courses & Workshops Taught
+```{=typst}
+#teaching-entry(
+  course: "POSC 4003, Terrorism and Political Violence",
+  institution: "Arkansas State University",
+  terms: ""
+)
+
+#teaching-entry(
+  course: "POSC 4313, International Organization",
+  institution: "Arkansas State University", 
+  terms: ""
+)
+
+#teaching-entry(
+  course: "POSC 4003, Data Visualization for Social Science",
+  institution: "Arkansas State University",
+  terms: ""
+)
+
+#teaching-entry(
+  course: "POSC 3303, Introduction to International Politics",
+  institution: "Arkansas State University",
+  terms: ""
+)
+
+#teaching-entry(
+  course: "POSC 6013, Advanced Political Analysis",
+  institution: "Arkansas State University",
+  terms: "Graduate course"
+)
+
+#teaching-entry(
+  course: "POSC 680V, Seminar in Political Economy",
+  institution: "Arkansas State University",
+  terms: "Graduate course"
+)
+
+#teaching-entry(
+  course: "POSC 3213, African Political Systems",
+  institution: "Arkansas State University",
+  terms: ""
+)
+
+#teaching-entry(
+  course: "POSC 4323/5323, Foreign Policy Analysis",
+  institution: "Arkansas State University",
+  terms: "Mixed level course"
+)
+
+#teaching-entry(
+  course: "POSC 1303, Introduction to Model U.N.",
+  institution: "Arkansas State University",
+  terms: ""
+)
+
+#teaching-entry(
+  course: "POSC 3003, Introduction to Political Analysis", 
+  institution: "Arkansas State University",
+  terms: ""
+)
+
+#teaching-entry(
+  course: "Modern Regression Analysis",
+  institution: "FLACSO University",
+  terms: "IPSA methods workshop, team taught with Laron Williams"
+)
+
+#teaching-entry(
+  course: "POSC 6003, Techniques of Political Science and Public Administration Research",
+  institution: "Arkansas State University",
+  terms: "Graduate course"
+)
+
+#teaching-entry(
+  course: "POSC 4223, Middle Eastern Political Systems",
+  institution: "Arkansas State University",
+  terms: ""
+)
+
+#teaching-entry(
+  course: "POSC 6533, Public Policy Analysis",
+  institution: "Arkansas State University",
+  terms: "Graduate course"
+)
+
+#teaching-entry(
+  course: "POSC 3203, Introduction to Comparative Politics",
+  institution: "Arkansas State University",
+  terms: ""
+)
+
+#teaching-entry(
+  course: "A Scientific Approach to Qualitative Data Analysis",
+  institution: "Texas A&M University",
+  terms: "Graduate workshop"
+)
+
+#teaching-entry(
+  course: "POLS 325, African Politics",
+  institution: "Texas A&M University",
+  terms: ""
+)
+
+#teaching-entry(
+  course: "Multivariate Models for Social Scientists and Policy Analysts",
+  institution: "Concordia University",
+  terms: "ICPSR methods workshop, assistant to Harold D. Clarke & Guy D. Whitten"
+)
+
+#teaching-entry(
+  course: "POLS 603, Quantitative Political Analysis II",
+  institution: "Texas A&M University",
+  terms: "Graduate course, student instructor for Guy D. Whitten"
+)
+
+#teaching-entry(
+  course: "POSC 3313, American Foreign Policy",
+  institution: "Arkansas State University",
+  terms: ""
+)
+
+#teaching-entry(
+  course: "PS 1010, American National Government",
+  institution: "Wayne State University",
+  terms: ""
+)
+
+#teaching-entry(
+  course: "POSC 2103, Introduction to United States Government",
+  institution: "Arkansas State University",
+  terms: ""
+)
+```
+
+# Fellowships, Honors & Awards
+```{=typst}
+#cv-entry(
+  title: "Faculty Research Achievement Award",
+  organization: "College of Liberal Arts & Communication, Arkansas State University",
+  dates: "2020"
+)
+
+#cv-entry(
+  title: "Best Published Paper in Political Science Research and Methods",
+  organization: "EPSA",
+  dates: "2016"
+)
+
+#cv-entry(
+  title: "Graduate research assistantship",
+  organization: "Texas A&M University", 
+  dates: "2010–2014"
+)
+
+#cv-entry(
+  title: "Board of Regents graduate fellowship",
+  organization: "Texas A&M University",
+  dates: "2010–2011"
+)
+
+#cv-entry(
+  title: "Critical Languages Scholarship for Arabic study in Morocco",
+  organization: "U.S. State Department",
+  dates: "2009"
+)
+
+#cv-entry(
+  title: "Outstanding Graduate Student",
+  organization: "Political Science Department, Arkansas State University",
+  dates: "2009"
+)
+
+#cv-entry(
+  title: "Fulbright Finalist, Syria",
+  organization: "U.S. State Department", 
+  dates: "2006"
+)
+
+#cv-entry(
+  title: "Graduate research/teaching assistantship",
+  organization: "Arkansas State University",
+  dates: "2007–2009"
+)
+```
+
+# Professional Memberships & Service
+```{=typst}
+#cv-entry(
+  title: "Reviewer",
+  organization: "National Science Foundation Graduate Research Fellowship Program (GRFP)",
+  dates: "Current"
+)
+
+#cv-entry(
+  title: "Reviewer", 
+  organization: "Science of Science: Discovery, Communication and Impact (SoS:DCI)",
+  dates: "Current"
+)
+
+#cv-entry(
+  title: "Member, University Planning Committee",
+  organization: "Arkansas State University",
+  dates: "2024–"
+)
+
+#cv-entry(
+  title: "Member, University Strategic Planning Committee on Campus Culture and Shared Values",
+  organization: "Arkansas State University",
+  dates: "2023–"
+)
+
+#cv-entry(
+  title: "Member, University Academic Integrity Committee",
+  organization: "Arkansas State University",
+  dates: "2022–"
+)
+
+#cv-entry(
+  title: "Member, Cluster Hire in Artificial Intelligence Search Committee",
+  organization: "Arkansas State University",
+  dates: "2022"
+)
+
+#cv-entry(
+  title: "Chair, Middle East Studies Committee",
+  organization: "Arkansas State University",
+  dates: "2022–"
+)
+
+#cv-entry(
+  title: "Member, BS in Data Science & Analytics Steering Committee", 
+  organization: "Arkansas State University",
+  dates: "2021–2022"
+)
+
+#cv-entry(
+  title: "Chair, Committee to Develop a Rural Studies Center",
+  organization: "Arkansas State University",
+  dates: "2020–2022"
+)
+
+#cv-entry(
+  title: "Member, Executive Committee",
+  organization: "Southwest Political Science Association",
+  dates: "2020–2022"
+)
+```
+
+# Skills & Software
+
+```{=typst}
+
+#cv-entry(
+  title: "Languages",
+  description: "Arabic (Intermediate Modern Standard, Colloquial Gulf, and Yemeni dialects)"
+)
+
+#cv-entry(
+  title: "Certifications",
+  description: "IRB CITI human subjects research certification, NIH human subjects research certification"
+)
+
+#cv-entry(
+  title: "Methods",
+  description: "EITM, Field Experiments, Maximum Likelihood, Pooled Time Series, Qualitative Methods, Spatial Econometrics, Time Series"
+)
+
+#cv-entry(
+  title: "Software",
+  description: {
+    "GIS, HTML, " + LaTeX + ", MacRATS, Mata, Nvivo, Python, R, SPSS, Stata"
+  }
+)
+```
+
+# Professional References
+
+```{=typst}
+#let my-references = (
+  (
+    name: "Dr. Guy D. Whitten",
+    title: "Professor of Political Science",
+    institution: "Texas A&M University",
+    address: "College Station, TX 77843",
+    phone: "(979) 845-8753",
+    email: "guy.whitten@tamu.edu"
+  ),
+  (
+    name: "Dr. Kenneth J. Meier", 
+    title: "Charles H. Gregory Chair in Liberal Arts",
+    institution: "American University",
+    address: "Washington, DC 20016",
+    phone: "(202) 885-6230",
+    email: "kmeier@american.edu"
+  ),
+  (
+    name: "Dr. Charles Stewart III",
+    title: "Kenan Sahin Distinguished Professor",
+    institution: "Massachusetts Institute of Technology",
+    address: "Cambridge, MA 02139",
+    phone: "(617) 253-2579",
+    email: "cstewart@mit.edu"
+  ),
+  (
+    name: "Dr. Laron K. Williams",
+    title: "Associate Professor of Political Science", 
+    institution: "University of Missouri",
+    address: "Columbia, MO 65211",
+    phone: "(573) 882-2082",
+    email: "williamslaro@missouri.edu"
+  )
+)
+
+#references-section(my-references, show-references: false)
+```
