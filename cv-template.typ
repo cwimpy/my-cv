@@ -234,7 +234,7 @@
     #justified-header(title, location, amount: amount)
     #secondary-justified-header(if organization != "" { organization } else { description }, dates)
     #if description != "" and organization != "" [
-      #v(0.2em)  // Reduced from 0.3em for tighter spacing
+      #v(0.2em)
       #pad(
         left: 1em,
         text(size: 11pt, fill: color-gray)[
@@ -642,9 +642,9 @@
     #set text(fill: color-lightgray, size: 8pt)
     #grid(
       columns: (1fr, 1fr, 1fr),
-      align(left)[#text(weight: "regular")[$name$]],
-      align(center)[#counter(page).display("1 / 1", both: true)],
-      align(right)[#text(weight: "regular")[Revised #datetime.today().display("[month repr:long] [year]")]]
+      align(left)[Revised #datetime.today().display("[month repr:long] [year]")],
+      align(center)[Cameron Wimpy · CV],
+      align(right)[#counter(page).display("1 / 1", both: true)]
     )
   ]
 )

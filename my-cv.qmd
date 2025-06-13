@@ -8,7 +8,7 @@ affiliation: "Department of Political Science | Your University"
 address: "PO Box 1750, State University, AR 72467"
 phone: "(870) 972-2147"
 email: "cwimpy@astate.edu"
-website: "www.cameronwimpy.com"
+website: "www.cwu.com"
 websiteurl: "https://www.cwimpy.com"
 websitedisplay: "cwimpy.com"
 github: "https://github.com/cwimpy"
@@ -22,7 +22,6 @@ orcidhandle: "0000-0002-2049-5229"
 google-scholar: "https://scholar.google.com/citations?user=LRQ7rpwAAAAJ&hl=en"
 google-scholarhandle: "Google Scholar"
 bibliography: publications.bib
-showrefs: true
 ---
 
 # Employment & Affiliations
