@@ -25,7 +25,7 @@ bibliography: publications.bib
 showrefs: true
 ---
 
-# Academic Appointments
+# Employment & Affiliations
 
 ```{=typst}
 #cv-entry(
@@ -33,7 +33,7 @@ showrefs: true
   organization: "Arkansas State University",
   location: "Jonesboro, AR",
   dates: "2023–present",
-  indent: true
+  description: "Affiliate faculty with",
 )
 
 #cv-entry(
@@ -88,409 +88,311 @@ showrefs: true
   dates: "2007"
   )
 ```
-
-
-```{r}
-#| echo: false
-#| eval: false
-
-# This R chunk is for your reference to help create the Typst code below
-# You can run this in R console to generate the Typst syntax, then copy/paste it
-
-library(RefManageR)
-bib <- ReadBib("publications.bib")
-
-for (i in 1:length(bib)) {
-  entry <- bib[[i]]
-  cat("  (\n")
-  cat("    type: \"", tolower(attr(entry, "bibtype")), "\",\n", sep="")
-  
-  if (!is.null(entry$author)) {
-    authors <- paste(format(entry$author), collapse = " and ")
-    authors <- gsub("\\{|\\}", "", authors)
-    cat("    author: \"", authors, "\",\n", sep="")
-  }
-  
-  if (!is.null(entry$title)) {
-    title <- gsub("\\{|\\}", "", as.character(entry$title))
-    cat("    title: \"", title, "\",\n", sep="")
-  }
-  
-  if (!is.null(entry$journal)) {
-    journal <- gsub("\\{|\\}", "", as.character(entry$journal))
-    cat("    journal: \"", journal, "\",\n", sep="")
-  }
-  
-  if (!is.null(entry$year)) {
-    cat("    year: \"", as.character(entry$year), "\",\n", sep="")
-  }
-  
-  if (!is.null(entry$volume)) {
-    cat("    volume: \"", as.character(entry$volume), "\",\n", sep="")
-  }
-  
-  if (!is.null(entry$number)) {
-    cat("    number: \"", as.character(entry$number), "\",\n", sep="")
-  }
-  
-  if (!is.null(entry$pages)) {
-    cat("    pages: \"", as.character(entry$pages), "\"\n", sep="")
-  }
-  
-  cat("  )")
-  if (i < length(bib)) cat(",")
-  cat("\n")
-}
-```
 # Research
 
 ## Publications
+
 *\* indicates equal authorship; author order is alphabetical*
 
-```{=typst}
-#let my-publications = (
-  // Journal Articles
-  (
-    type: "article",
-    author: "Lisa Schur and Mason Ameri and Joseph Dietrich and Michael Herron and Douglas Kruse and Whitney Quesenbery and Melissa Rogers and Jean Schroedel and Daniel A. Smith and Cameron Wimpy",
-    title: "Ensuring Voting Access Across the Electorate",
-    journal: "Journal of Election Administration Research & Practice",
-    volume: "3",
-    year: "2025",
-    pages: "3--10",
-  ),
-  (
-    type: "article",
-    author: "Samuel Baltz and Alexander Agadjanian and Declan Chin and John Curiel and Kevin DeLuca and James Dunham and Jennifer Miranda and Connor Phillips and Annabel Uhlman and Cameron Wimpy and Marcos Zárate and Charles Stewart",
-    title: "American Election Results at the Precinct Level",
-    journal: "Nature: Scientific Data",
-    volume: "9",
-    number: "651",
-    year: "2022",
-    pages: "1--12",
-    doi: "10.1038/s41597-022-01745-0"
-  ),
-  (
-    type: "article",
-    author: "Cameron Wimpy",
-    title: "Political Failure and Bureaucratic Potential in Africa",
-    journal: "Journal of Policy Studies",
-    volume: "36",
-    number: "4",
-    year: "2021",
-    pages: "15--25",
-    doi: "10.52372/kjps36402"
-  ),
-  (
-    type: "article",
-    author: "Cameron Wimpy and Laron K. Willams and Guy D. Whitten",
-    title: "X Marks the Spot: Discovering the Treasure of Spatial-X Models",
-    journal: "The Journal of Politics",
-    volume: "83",
-    number: "2",
-    year: "2021",
-    pages: "722--739",
-    doi: "10.1086/710089",
-  ),
-  (
-    type: "article",
-    author: "Guy D. Whitten and Laron K. Williams and Cameron Wimpy",
-    title: "Interpretation: The Final Spatial Frontier",
-    journal: "Political Science Research and Methods",
-    volume: "9",
-    number: "1",
-    year: "2021",
-    pages: "140--156",
-    doi: "10.1017/psrm.2019.9",
-    note: "equal authorship" 
-  ),
-  (
-    type: "article",
-    author: "Charles Stewart III and R. Michael Alvarez and Stephen Pettigrew and Cameron Wimpy",
-    title: "Abstention, Protest, and Residual Votes in the 2016 Election",
-    journal: "Social Science Quarterly",
-    volume: "101",
-    number: "2",
-    year: "2020",
-    pages: "925--939",
-    doi: "10.1111/ssqu.12757"
-  ),
-  (
-    type: "article",
-    author: "Kenneth J. Meier and Mallory Compton and John Polga-Hecimovich and Miyeon Song and Cameron Wimpy",
-    title: "Bureaucracy and the Failure of Politics: Challenges to Democratic Governance",
-    journal: "Administration and Society",
-    volume: "51",
-    number: "10",
-    year: "2019",
-    pages: "1576--1605",
-    doi: "10.1177/0095399719874759"
-  ),
-  (
-    type: "article",
-    author: "Matthew W. Walker and Sarah A. Evans and Cameron Wimpy and Amanda Berger and Alexandria Smith",
-    title: "Developing Smokeless Tobacco Prevention Messaging for At-Risk Youth: Early Lessons from 'The Real Cost' Smokeless Campaign",
-    journal: "Health Equity",
-    volume: "2",
-    number: "1",
-    year: "2018",
-    pages: "167--173",
-    doi: "10.1089/heq.2018.0029"
-  ),
-  (
-    type: "article",
-    author: "Chris McKallagat and Flávio D. S. Souza and Jenifer Whitten-Woodring and Cameron Wimpy",
-    title: "Are Media at Work in Your Neighborhood? The Effect of Media Freedom, Internet Access and Information Spillover on Workers' Rights",
-    journal: "Social Science Quarterly",
-    volume: "98",
-    number: "3",
-    year: "2017",
-    pages: "1078--1098",
-    doi: "10.1111/ssqu.12443",
-    note: "equal authorship" 
-  ),
-  (
-    type: "article",
-    author: "Cameron Wimpy and Guy D. Whitten",
-    title: "What Is and What May Never Be: Economic Voting in Developing Democracies",
-    journal: "Social Science Quarterly",
-    volume: "98",
-    number: "3",
-    year: "2017",
-    pages: "1099--1111",
-    doi: "10.1111/ssqu.12444"
-  ),
-  (
-    type: "article",
-    author: "Blake E. Garcia and Cameron Wimpy",
-    title: "Does Information Lead to Emulation? Spatial Dependence in Anti-Government Violence",
-    journal: "Political Science Research and Methods",
-    volume: "4",
-    number: "1",
-    year: "2016",
-    pages: "27--46",
-    doi: "10.1017/psrm.2014.18",
-    note: "equal authorship"
-  ),
+```{r}
+#| echo: false
+#| eval: true
+#| results: asis
+
+library(RefManageR)
+
+# Initialize variables
+bib_loaded <- FALSE
+bib <- NULL
+
+# Try to read the bibliography file
+tryCatch({
+  bib <- ReadBib("publications.bib")
+  bib_loaded <- TRUE
+}, error = function(e) {
+  cat("Error reading publications.bib:", e$message, "\n")
+  cat("Make sure publications.bib is in the same directory.\n")
+})
+
+# Only proceed if bibliography was loaded successfully
+if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   
-  // Book Chapters
-  (
-    type: "incollection",
-    author: "Amanda M. Carpenter and Cameron Wimpy",
-    title: "Rural and other minority populations",
-    booktitle: "Pandemic Resilience: Vaccination Resistance and Hesitance, Lessons from COVID-19",
-    editor: "David Berube",
-    publisher: "Springer Nature",
-    address: "New York",
-    year: "2024"
-  ),
-  (
-    type: "incollection",
-    author: "Amanda M. Carpenter and Cameron Wimpy",
-    title: "The politicization of COVID-19 and implications for public health",
-    booktitle: "Pandemic Resilience: Vaccination Resistance and Hesitance, Lessons from COVID-19",
-    editor: "David Berube",
-    publisher: "Springer Nature",
-    address: "New York",
-    year: "2024",
-    note: "equal authorship"
-  ),
-  (
-    type: "incollection",
-    author: "Cameron Wimpy and Marlette Jackson and Kenneth J. Meier",
-    title: "Administrative Capacity and Health Care in Africa: Path Dependence as a Contextual Variable",
-    booktitle: "Context and Government Performance: Public Management in Comparative Perspective",
-    editor: "Amanda Rutherford and Claudia Avellaneda and Kenneth J. Meier",
-    publisher: "Georgetown University Press",
-    address: "Washington DC",
-    year: "2017",
-    pages: "27--48"
-  ),
-  (
-    type: "incollection",
-    author: "Guy D. Whitten and Cameron Wimpy",
-    title: "Stata and Political Science",
-    booktitle: "Thirty Years with Stata: A Retrospective",
-    editor: "Enrique Pinzon",
-    publisher: "Stata Press",
-    address: "College Station",
-    year: "2015",
-    pages: "121--125",
-    note: "equal authorship"
-  )
-)
-
-#display-publications-from-data(
-  publications: my-publications,
-  bold-name: "Cameron Wimpy",
-  reverse-numbering: true,
-  categories: (
-    ("article", "Journal Articles"),
-    ("incollection", "Book Chapters")
-  )
-)
+  # Define book chapters and essays
+  chapter_keys <- c("carpenter2024rural", "carpenter2024politicization", "wimpy2017administrative", "whitten2015stata")
+  essay_keys <- c("reid2013defining", "wimpy2011presidential", "wimpy2010review")
+  
+  cat("```{=typst}\n")
+  cat("#let my-publications = (\n")
+  
+  # Process all entries (no filtering)
+  entry_count <- 0
+  for (i in 1:length(bib)) {
+    entry_key <- names(bib)[i]
+    
+    if (entry_count > 0) cat(",\n")
+    entry_count <- entry_count + 1
+    
+    entry <- bib[[i]]
+    cat("  (\n")
+    
+    # Determine entry type based on key
+    if (entry_key %in% chapter_keys) {
+      entry_type <- "incollection"
+    } else if (entry_key %in% essay_keys) {
+      entry_type <- "essay"
+    } else {
+      entry_type <- "article"
+    }
+    cat("    type: \"", entry_type, "\",\n", sep="")
+    
+    # Author
+    if (!is.null(entry$author)) {
+      authors <- paste(format(entry$author), collapse = " and ")
+      authors <- gsub("\\{|\\}", "", authors)
+      authors <- gsub("\"", "\\\"", authors)
+      cat("    author: \"", authors, "\",\n", sep="")
+    }
+    
+    # Title
+    if (!is.null(entry$title)) {
+      title <- gsub("\\{|\\}", "", as.character(entry$title))
+      title <- gsub("\"", "\\\"", title)
+      cat("    title: \"", title, "\",\n", sep="")
+    }
+    
+    # Journal (for articles)
+    if (!is.null(entry$journal)) {
+      journal <- gsub("\\{|\\}", "", as.character(entry$journal))
+      journal <- gsub("\"", "\\\"", journal)
+      cat("    journal: \"", journal, "\",\n", sep="")
+    }
+    
+    # Book title (for chapters)
+    if (!is.null(entry$booktitle)) {
+      booktitle <- gsub("\\{|\\}", "", as.character(entry$booktitle))
+      booktitle <- gsub("\"", "\\\"", booktitle)
+      cat("    booktitle: \"", booktitle, "\",\n", sep="")
+    }
+    
+    # Editor (for chapters)
+    if (!is.null(entry$editor)) {
+      editor <- paste(format(entry$editor), collapse = " and ")
+      editor <- gsub("\\{|\\}", "", editor)
+      editor <- gsub("\"", "\\\"", editor)
+      cat("    editor: \"", editor, "\",\n", sep="")
+    }
+    
+    # Publisher
+    if (!is.null(entry$publisher)) {
+      publisher <- gsub("\\{|\\}", "", as.character(entry$publisher))
+      publisher <- gsub("\"", "\\\"", publisher)
+      cat("    publisher: \"", publisher, "\",\n", sep="")
+    }
+    
+    # Address
+    if (!is.null(entry$address)) {
+      address <- gsub("\\{|\\}", "", as.character(entry$address))
+      address <- gsub("\"", "\\\"", address)
+      cat("    address: \"", address, "\",\n", sep="")
+    }
+    
+    # Year
+    if (!is.null(entry$year)) {
+      cat("    year: \"", as.character(entry$year), "\",\n", sep="")
+    }
+    
+    # Volume
+    if (!is.null(entry$volume)) {
+      cat("    volume: \"", as.character(entry$volume), "\",\n", sep="")
+    }
+    
+    # Number
+    if (!is.null(entry$number)) {
+      cat("    number: \"", as.character(entry$number), "\",\n", sep="")
+    }
+    
+    # Pages
+    if (!is.null(entry$pages)) {
+      pages <- as.character(entry$pages)
+      pages <- gsub("--", "–", pages)
+      cat("    pages: \"", pages, "\",\n", sep="")
+    }
+    
+    # DOI
+    if (!is.null(entry$doi)) {
+      cat("    doi: \"", as.character(entry$doi), "\",\n", sep="")
+    }
+    
+    # URL
+    if (!is.null(entry$url)) {
+      cat("    url: \"", as.character(entry$url), "\",\n", sep="")
+    }
+    
+    # Note
+    if (!is.null(entry$note)) {
+      note <- gsub("\\{|\\}", "", as.character(entry$note))
+      note <- gsub("\"", "\\\"", note)
+      cat("    note: \"", note, "\"\n", sep="")
+    } else {
+      cat("    // end entry\n")
+    }
+    
+    cat("  )")
+  }
+  
+  cat("\n)\n\n")
+  
+  cat("#text(size: 9pt, fill: color-lightgray, style: \"italic\")[\\* indicates equal authorship; author order is alphabetical]\n\n")
+  
+  cat("#display-publications-from-data(\n")
+  cat("  publications: my-publications,\n")
+  cat("  bold-name: \"Cameron Wimpy\",\n")
+  cat("  reverse-numbering: true,\n")
+  cat("  categories: (\n")
+  cat("    (\"article\", \"Journal Articles\"),\n")
+  cat("    (\"incollection\", \"Book Chapters\"),\n")
+  cat("    (\"essay\", \"Essays & Reviews\")\n")
+  cat("  )\n")
+  cat(")\n")
+  cat("```\n")
+  
+} else {
+  cat("Bibliography could not be loaded. Using fallback.\n")
+  cat("```{=typst}\n")
+  cat("// Error: Could not load publications.bib\n")
+  cat("```\n")
+}
 ```
-
-## Essays & Reviews
-```{=typst}
-#let my-essays = (
-  (
-    type: "article",
-    author: "Irvin D. Reid and Cameron Wimpy",
-    title: "Defining Opposition: An Interview with Afonso Dhlakama of RENAMO",
-    journal: "Ufahamu: A Journal of African Studies",
-    volume: "37",
-    number: "1",
-    year: "2013"
-  ),
-  (
-    type: "article",
-    author: "Cameron Wimpy",
-    title: "The 2009 Presidential and Parliamentary Elections in Mozambique",
-    journal: "Electoral Studies",
-    volume: "30",
-    number: "2",
-    year: "2011",
-    pages: "366--368",
-    doi: "10.1016/j.electstud.2011.02.004"
-  ),
-  (
-    type: "article",
-    author: "Cameron Wimpy",
-    title: "Review of: Valeri, Marc. 2010. 'Oman: Politics and Society in the Qaboos State'",
-    journal: "Digest of Middle East Studies",
-    volume: "19",
-    number: "2", 
-    year: "2010",
-    pages: "340--341",
-    doi: "10.1111/j.1949-3606.2010.00052.x"
-  )
-)
-
-#display-publications-from-data(
-  publications: my-essays,
-  bold-name: "Cameron Wimpy",
-  reverse-numbering: true,
-  categories: ()
-)
-```
-
-<!-- ## Selected Works in Progress -->
-<!-- ```{=typst} -->
-<!-- #cv-entry( -->
-<!--   title: "Modeling Time and Space Together", -->
-<!--   dates: "In Progress", -->
-<!--   description: "With Andrea Junqueira, Ali Kagalwala, Guy D. Whitten, and Laron K. Williams" -->
-<!-- ) -->
-
-<!-- #cv-entry( -->
-<!--   title: "Examining Rurality as a Predictor of Health Behavior and Outcomes: An Analysis of County Health Rankings, 2011–2021", -->
-<!--   dates: "In Progress",  -->
-<!--   description: "With Amanda M. Carpenter" -->
-<!-- ) -->
-<!-- ``` -->
 
 ## Research Interests
+
 ```{=typst}
 #service-list(("Comparative Public Administration & Policy", "Election Administration", "Political Economy", "Political Methodology", "Spatial Econometrics"))
 ```
-
 # Grants
+
 ```{=typst}
+#cv-entry(
+  title: "Institute for Rural Initiatives Startup Funding",
+  organization: "Arkansas State University Research Technology and Transfer",
+  dates: "2025",
+  amount: "$225,000",
+  description: ""
+)
+
+#cv-entry(
+  title: "Elections Trust Initative",
+  organization: "Elections Trust Initative",
+  dates: "2025",
+  amount: "$47,000",
+  description: "Sub-grant from Rutgers University"
+)
+
 #cv-entry(
   title: "Ensuring Usability/Disability Access within the Voting Experience",
   organization: "MIT Election Data and Science Lab and The Pew Charitable Trusts",
   dates: "2023",
-  description: "Sub-grant from Rutgers University, $10,000",
-  small: true
+  amount: "$10,000",
+  description: "Sub-grant from Rutgers University"
 )
 
 #cv-entry(
   title: "Exploring Rural Election Administration with Special Attention to the Mississippi River Delta",
   organization: "MIT Election Data and Science Lab and The Pew Charitable Trusts",
   dates: "2022",
-  description: "$95,173",
-  small: true
+  amount: "$95,173",
+  description: ""
 )
 
 #cv-entry(
   title: "Vaccine Hesitancy Among College and University Students in Arkansas",
   organization: "Arkansas Department of Health",
   dates: "2022",
-  description: "CDC sub-award, $32,042, co-PI with Amanda M. Carpenter"
+  amount: "$32,042",
+  description: "CDC sub-award, co-PI with Amanda M. Carpenter"
 )
 
 #cv-entry(
   title: "Should We Stay or Should We Go Now? Examining Americans' Attitudes Towards Separation and Unity",
   organization: "Arkansas State University Faculty Research Grant",
   dates: "2021",
-  description: "$10,000, co-PI with William P. McLean"
+  amount: "$10,000",
+  description: "co-PI with William P. McLean"
 )
 
 #cv-entry(
   title: "Developing a Public Health Preparedness Dashboard for Rural Communities",
   organization: "Arkansas Biosciences Institute",
   dates: "2020",
-  description: "$12,583, co-PI with Amanda M. Carpenter"
+  amount: "$12,583",
+  description: "co-PI with Amanda M. Carpenter"
 )
 
 #cv-entry(
   title: "Liberal Arts Professional Development Grant",
   organization: "Texas A&M University",
   dates: "2014",
-  description: "$6,331"
+  amount: "$6,331",
+  description: ""
 )
 
 #cv-entry(
   title: "Liberal Arts Faculty-Student Collaboration Grant",
   organization: "Texas A&M University",
   dates: "2013",
-  description: "$2,000, with Kenneth J. Meier"
+  amount: "$2,000",
+  description: "with Kenneth J. Meier"
 )
 
 #cv-entry(
   title: "Liberal Arts Vision 2020 Dissertation Enhancement Award",
   organization: "Texas A&M University",
   dates: "2013",
-  description: "$5,000"
+  amount: "$5,000",
+  description: ""
 )
 
 #cv-entry(
   title: "Liberal Arts Professional Development Grant",
   organization: "Texas A&M University",
   dates: "2012",
-  description: "$4,000"
+  amount: "$4,000",
+  description: ""
 )
 
 #cv-entry(
   title: "Fieldwork grants for research in South Sudan",
   organization: "Texas A&M University",
   dates: "2010–2011",
-  description: "$5,000"
+  amount: "$5,000",
+  description: ""
 )
-#pagebreak()
+
 #cv-entry(
   title: "Middle East Studies grant for Arabic study and fieldwork in Yemen",
   organization: "Arkansas State University",
   dates: "2009",
-  description: "$5,000"
+  amount: "$5,000",
+  description: ""
 )
 
 #cv-entry(
   title: "Middle East Studies grant for Arabic study and fieldwork in Oman and the United Arab Emirates",
   organization: "Arkansas State University",
   dates: "2006",
-  description: "$5,000"
+  amount: "$5,000",
+  description: ""
 )
 ```
-
 # Teaching
+
 ## Teaching Interests
+
 ```{=typst}
 #service-list(("African Politics", "Comparative Public Policy", "Political Economy", "International Relations", "Research Methods"))
 ```
-
 ## Courses & Workshops Taught
+
 ```{=typst}
 #teaching-entry(
   course: "POSC 4003, Terrorism and Political Violence",
@@ -624,8 +526,8 @@ for (i in 1:length(bib)) {
   terms: ""
 )
 ```
-
 # Fellowships, Honors & Awards
+
 ```{=typst}
 #cv-entry(
   title: "Faculty Research Achievement Award",
@@ -675,8 +577,8 @@ for (i in 1:length(bib)) {
   dates: "2007–2009"
 )
 ```
-
 # Professional Memberships & Service
+
 ```{=typst}
 #cv-entry(
   title: "Reviewer",
@@ -738,7 +640,6 @@ for (i in 1:length(bib)) {
   dates: "2020–2022"
 )
 ```
-
 # Skills & Software
 
 ```{=typst}
@@ -765,7 +666,6 @@ for (i in 1:length(bib)) {
   }
 )
 ```
-
 # Professional References
 
 ```{=typst}
