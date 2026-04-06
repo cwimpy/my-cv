@@ -1,0 +1,3 @@
+project:
+  post-render:
+    - "rm -rf my-cv_files"

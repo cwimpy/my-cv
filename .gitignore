@@ -50,3 +50,6 @@ rsconnect/
 
 # DS_Store
 .DS_Store
+
+# Quarto mediabag
+*_files/
