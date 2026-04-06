@@ -287,8 +287,8 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 )
 
 #cv-entry(
-  title: "Election Trust Initiative",
-  organization: "Election Trust Initiative",
+  title: "Elections Trust Initative",
+  organization: "Elections Trust Initative",
   dates: "2025",
   amount: "$47,612",
   description: ""
@@ -296,7 +296,7 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 
 #cv-entry(
   title: "Ensuring Usability/Disability Access within the Voting Experience",
-  organization: "Rutgers University (Sub-grant from MIT and Election Trust Initiative)",
+  organization: "Rutgers University (Sub-grant from MIT and Elections Trust Initative)",
   dates: "2023",
   amount: "$10,000",
   description: ""
@@ -304,7 +304,7 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 
 #cv-entry(
   title: "Exploring Rural Election Administration with Special Attention to the Mississippi River Delta",
-  organization: "MIT Election Data and Science Lab and Election Trust Initiative",
+  organization: "MIT Election Data and Science Lab and Elections Trust Initative",
   dates: "2022",
   amount: "$95,173",
   description: ""
@@ -427,8 +427,8 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 )
 
 #cv-entry(
-  title: "Exploring the Interaction Between Rurality and Race as a Predictor of Health Outcomes: An Analysis of County Health Rankings, 2011–2020",
-  organization: "American Public Health Association Annual Meetings (with Amanda Carpenter)",
+  title: "Exploring the Interaction Between Rurality and Race as a Predictor of Health Outcomes: An Analysis of County Health Rankings, 2011–2020 (with Amanda Carpenter)",
+  organization: "American Public Health Association Annual Meetings",
   location: "Virtual Presentation",
   dates: "October 2021",
   description: ""
@@ -585,21 +585,21 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 
 #cv-entry(
   title: "To Have and to Have Not: Patrimonial Voting in Africa",
-  organization: "Midwest Political Science Association Annual Meetings (with Guy D. Whitten)",
+  organization: "Midwest Political Science Association Annual Meetings (Guy D. Whitten)",
   location: "Chicago, IL",
   dates: "April 2013",
 )
 
 #cv-entry(
   title: "Does Information Lead to Emulation: Media Openness & the Spread of Social Conflict",
-  organization: "Spatial Models of Politics in Europe and Beyond, Texas A&M University European Union Center (with Blake E. Garcia)",
+  organization: "Spatial Models of Politics in Europe and Beyond, Texas A&M University European Union Center (Blake E. Garcia)",
   location: "College Station, TX",
   dates: "February 2013",
 )
 
 #cv-entry(
   title: "For the Want of a Bureaucrat: Administrative Capacity and Public Health in Africa",
-  organization: "Midwest Political Science Association Annual Meetings (with Marlette Jackson and Kenneth J. Meier)",
+  organization: "Midwest Political Science Association Annual Meetings (Marlette Jackson and Kenneth J. Meier)",
   location: "Chicago, IL",
   dates: "April 2012",
 )
@@ -620,7 +620,7 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 
 #cv-entry(
   title: "Should I Stay or Should I Go? The 2011 Referendum in Southern Sudan",
-  organization: "Africa in World Politics Conference (with Kim Yi Dionne)",
+  organization: "Africa in World Politics Conference (Kim Yi Dionne)",
   location: "Austin, TX",
   dates: "March 2011",
 )
@@ -659,23 +659,11 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 ## Teaching Interests
 
 ```{=typst}
-#service-list(("Comparative Public Policy", "Election Science", "Foreign Policy", "Political Economy", "Research Methods"))
+#service-list(("African Politics", "Comparative Public Policy", "Political Economy", "International Relations", "Research Methods"))
 ```
 ## Courses & Workshops Taught
 
 ```{=typst}
-#teaching-entry(
-  course: "POSC 4003, Elections and Voting in the United States",
-  institution: "Arkansas State University",
-  terms: ""
-)
-
-#teaching-entry(
-  course: "POSC 6613, Administrative Leadership",
-  institution: "Arkansas State University",
-  terms: ""
-)
-
 #teaching-entry(
   course: "POSC 4003, Terrorism and Political Violence",
   institution: "Arkansas State University",
@@ -856,12 +844,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 # Professional Memberships & Service
 
 ```{=typst}
-#cv-entry(
-  title: "President",
-  organization: "Arkansas State University Chairs' Council",
-  dates: "2025–2026"
-)
-
 #cv-entry(
   title: "Reviewer",
   organization: "National Science Foundation Graduate Research Fellowship Program (GRFP)",
@@ -1173,7 +1155,7 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 )
 
 #cv-entry(
-  title: "Teacher Certification, Swift Playgrounds",
+  title: " Teacher Certification, Swift Playgrounds",
   organization: "Apple", 
   dates: "2022"
 )
@@ -1218,7 +1200,7 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 )
 
 #cv-entry(
-  title: "Power Analysis and Sample Size Planning",
+  title: "Power Analysis and Sampling Size Planning",
   organization: "Statistical Horizons Workshop",
   dates: "2021"
 )
@@ -1243,7 +1225,7 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 
 #cv-entry(
   title: "Stata Courses for both Basic and Advanced Programming in Stata & Mata",
-  organization: "StataCorp",
+  organization: "Stata Corp",
   dates: "2011–2012"
 )
 
