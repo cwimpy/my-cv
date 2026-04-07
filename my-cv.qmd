@@ -382,238 +382,238 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 #section("Conference Presentations")
 
 #cv-entry(
-  title: "Local Jurisdiction Website Coding: Does Rurality Matter?",
+  title: "“Local Jurisdiction Website Coding: Does Rurality Matter?”",
   organization: "Election Sciences, Reform, and Administration Conference (with Ellie Foote and William McLean)",
   location: "Athens, GA",
   dates: "June 2023",
 )
 
 #cv-entry(
-  title: "Engaging with Rural Election Administrators in the Mississippi River Delta Region",
+  title: "“Engaging with Rural Election Administrators in the Mississippi River Delta Region”",
   organization: "Election Sciences, Reform, and Administration Conference (with William McLean)", 
   location: "Athens, GA",
   dates: "June 2023",
 )
 
 #cv-entry(
-  title: "Analyzing the Impact of Rurality on Election Administration",
+  title: "“Analyzing the Impact of Rurality on Election Administration”",
   organization: "Election Sciences, Reform, and Administration Conference",
   location: "Athens, GA", 
   dates: "June 2023"
 )
 
 #cv-entry(
-  title: "Presidential Focus, Domestic Politics, and Foreign Policy",
+  title: "“Presidential Focus, Domestic Politics, and Foreign Policy”",
   organization: "Texas A&M University European Union Center Conference on Analyzing Compositional Variables in the Study of Politics and Policy (with Clayton Webb)",
   location: "College Station, TX",
   dates: "June 2022",
 )
 
 #cv-entry(
-  title: "Exploring the Interaction Between Rurality and Race as a Predictor of Health Outcomes: An Analysis of County Health Rankings, 2011–2020",
+  title: "“Exploring the Interaction Between Rurality and Race as a Predictor of Health Outcomes: An Analysis of County Health Rankings, 2011–2020”",
   organization: "American Public Health Association Annual Meetings (with Amanda Carpenter)",
   location: "Virtual Presentation",
   dates: "October 2021",
 )
 
 #cv-entry(
-  title: "Examining Rurality as a Predictor of Health Outcomes: An Analysis of County Health Rankings, 2011–2020",
+  title: "“Examining Rurality as a Predictor of Health Outcomes: An Analysis of County Health Rankings, 2011–2020”",
   organization: "American Public Health Association Annual Meetings (with Amanda Carpenter)",
   location: "Virtual Presentation", 
   dates: "October 2021",
 )
 
 #cv-entry(
-  title: "Are We There Yet? Political Participation in Transitional Democracies",
+  title: "“Are We There Yet? Political Participation in Transitional Democracies”",
   organization: "Midwest Political Science Association Annual Meetings (with Murat Abus)",
   location: "Virtual Presentation",
   dates: "April 2021",
 )
 
 #cv-entry(
-  title: "What was that Promise that You Made? Citizen Initiated Contact and Administrative Response",
+  title: "“What was that Promise that You Made? Citizen Initiated Contact and Administrative Response”",
   organization: "Arkansas Political Science Association Annual Meetings (with William McLean)",
   location: "Virtual Presentation",
   dates: "February 2021",
 )
 
 #cv-entry(
-  title: "I've Got the Power! Issues Surrounding Statistical Power in the Design and Analysis of Survey Experiments",
+  title: "“I've Got the Power! Issues Surrounding Statistical Power in the Design and Analysis of Survey Experiments”",
   organization: "Society for Political Methodology Annual Meetings (with Clayton Webb)",
   location: "Virtual Presentation", 
   dates: "July 2020",
 )
 
 #cv-entry(
-  title: "Modeling Time and Space Together",
+  title: "“Modeling Time and Space Together”",
   organization: "Society for Political Methodology Annual Meetings (with Andrea Junqueira, Ali Kagalwala, Guy D. Whitten, and Laron K. Williams)",
   location: "Virtual Presentation",
   dates: "July 2020",
 )
 
 #cv-entry(
-  title: "Administering Voter Confidence in Elections",
+  title: "“Administering Voter Confidence in Elections”",
   organization: "Southern Political Science Association Annual Meetings",
   location: "Austin, TX",
   dates: "January 2019"
 )
 
 #cv-entry(
-  title: "The Great Divide: Southern, Rural, or Both?",
+  title: "“The Great Divide: Southern, Rural, or Both?”",
   organization: "Southern Political Science Association Annual Meetings (with William McLean)",
   location: "Austin, TX",
   dates: "January 2019",
 )
 
 #cv-entry(
-  title: "Politics, Bureaucracy, and Successful Governance: The Problem of Political Failure",
+  title: "“Politics, Bureaucracy, and Successful Governance: The Problem of Political Failure”",
   organization: "American Political Science Association Annual Meetings (with Kenneth J. Meier, Mallory Compton, John Polga-Hecimovich, and Miyeon Song)",
   location: "Boston, MA",
   dates: "September 2018",
 )
 
 #cv-entry(
-  title: "Poll Workers and the Potential Population",
+  title: "“Poll Workers and the Potential Population”",
   organization: "American Political Science Association Annual Meetings",
   location: "Boston, MA",
   dates: "September 2018"
 )
 
 #cv-entry(
-  title: "The Military and Overseas Vote in U.S. Elections: Exploring New Data and Trends",
+  title: "“The Military and Overseas Vote in U.S. Elections: Exploring New Data and Trends”",
   organization: "Midwest Political Science Association Annual Meetings (with Charles Stewart III)",
   location: "Chicago, IL",
   dates: "April 2018",
 )
 
 #cv-entry(
-  title: "Administrative Capacity, Context, and Educational Outcomes in Contemporary Africa",
+  title: "“Administrative Capacity, Context, and Educational Outcomes in Contemporary Africa”",
   organization: "Midwest Political Science Association Annual Meetings (with Kenneth J. Meier)",
   location: "Chicago, IL",
   dates: "April 2018",
 )
 
 #cv-entry(
-  title: "The Capacity of Public Administration in Comparative Perspective",
+  title: "“The Capacity of Public Administration in Comparative Perspective”",
   organization: "Midwest Political Science Association Annual Meetings (with William McLean)",
   location: "Chicago, IL",
   dates: "April 2018",
 )
 
 #cv-entry(
-  title: "X Marks the Spot: Discovering the Treasure of Spatial-X Models",
+  title: "“X Marks the Spot: Discovering the Treasure of Spatial-X Models”",
   organization: "Modeling Politics & Policy in Time and Space Conference (with Guy D. Whitten and Laron K. Williams)",
   location: "College Station, TX",
   dates: "April 2017",
 )
 
 #cv-entry(
-  title: "Channel Open: Spatial Econometric Methods for Analyzing the Flow of Information",
+  title: "“Channel Open: Spatial Econometric Methods for Analyzing the Flow of Information”",
   organization: "Midwest Political Science Association Annual Meetings",
   location: "Chicago, IL",
   dates: "April 2017"
 )
 
 #cv-entry(
-  title: "Media at Work: The Effect of Media Freedom and Internet Access on Workers' Rights",
+  title: "“Media at Work: The Effect of Media Freedom and Internet Access on Workers' Rights”",
   organization: "American Political Science Association Annual Meetings (with Flávio Da Silva Souza, Chris McKallagat, and Jenifer Whitten-Woodring)",
   location: "San Francisco, CA",
   dates: "September 2015",
 )
 
 #cv-entry(
-  title: "Volunteerism and Poll Workers",
+  title: "“Volunteerism and Poll Workers”",
   organization: "American Political Science Association Annual Meetings (with Thad Hall)",
   location: "San Francisco, CA",
   dates: "September 2015",
 )
 
 #cv-entry(
-  title: "X Marks the Spot: Exploring Spatial Robustness",
+  title: "“X Marks the Spot: Exploring Spatial Robustness”",
   organization: "Midwest Political Science Association Annual Meetings (with Laron K. Williams and Guy D. Whitten)",
   location: "Chicago, IL",
   dates: "April 2015",
 )
 
 #cv-entry(
-  title: "There's More Going on Next Door Than you Thought: Exploring Spatial Robustness",
+  title: "“There's More Going on Next Door Than you Thought: Exploring Spatial Robustness”",
   organization: "Robustness Testing and the Empirical Analysis of Observational Data Workshop (with Laron K. Williams and Guy D. Whitten)",
   location: "Cologne, Germany",
   dates: "September 2014",
 )
 
 #cv-entry(
-  title: "What is and What May Never Be: Economic Voting in Developing Democracies",
+  title: "“What is and What May Never Be: Economic Voting in Developing Democracies”",
   organization: "Midwest Political Science Association Annual Meetings (with Guy D. Whitten)",
   location: "Chicago, IL",
   dates: "April 2014",
 )
 
 #cv-entry(
-  title: "To Have and to Have Not: Patrimonial Voting in Africa",
+  title: "“To Have and to Have Not: Patrimonial Voting in Africa”",
   organization: "Midwest Political Science Association Annual Meetings (with Guy D. Whitten)",
   location: "Chicago, IL",
   dates: "April 2013",
 )
 
 #cv-entry(
-  title: "Does Information Lead to Emulation: Media Openness & the Spread of Social Conflict",
+  title: "“Does Information Lead to Emulation: Media Openness & the Spread of Social Conflict”",
   organization: "Spatial Models of Politics in Europe and Beyond, Texas A&M University European Union Center (with Blake E. Garcia)",
   location: "College Station, TX",
   dates: "February 2013",
 )
 
 #cv-entry(
-  title: "For the Want of a Bureaucrat: Administrative Capacity and Public Health in Africa",
+  title: "“For the Want of a Bureaucrat: Administrative Capacity and Public Health in Africa”",
   organization: "Midwest Political Science Association Annual Meetings (with Marlette Jackson and Kenneth J. Meier)",
   location: "Chicago, IL",
   dates: "April 2012",
 )
 
 #cv-entry(
-  title: "Ethnic Identity and Arbitrary Borders",
+  title: "“Ethnic Identity and Arbitrary Borders”",
   organization: "International Studies Association Annual Meetings",
   location: "San Diego, CA",
   dates: "April 2012"
 )
 
 #cv-entry(
-  title: "Birds of a Feather: Co-Ethnic Candidates and Voter Turnout",
+  title: "“Birds of a Feather: Co-Ethnic Candidates and Voter Turnout”",
   organization: "Midwest Political Science Association Annual Meetings",
   location: "Chicago, IL",
   dates: "April 2011"
 )
 
 #cv-entry(
-  title: "Should I Stay or Should I Go? The 2011 Referendum in Southern Sudan",
+  title: "“Should I Stay or Should I Go? The 2011 Referendum in Southern Sudan”",
   organization: "Africa in World Politics Conference (with Kim Yi Dionne)",
   location: "Austin, TX",
   dates: "March 2011",
 )
 
 #cv-entry(
-  title: "Civic Associationalism and Voter Turnout in Transitional Democracies",
+  title: "“Civic Associationalism and Voter Turnout in Transitional Democracies”",
   organization: "American Political Science Association Annual Meetings",
   location: "Washington D.C.",
   dates: "September 2010"
 )
 
 #cv-entry(
-  title: "Voter Turnout in sub-Saharan Africa: Moving Beyond Institutions?",
+  title: "“Voter Turnout in sub-Saharan Africa: Moving Beyond Institutions?”",
   organization: "Midwest Political Science Association Annual Meetings",
   location: "Chicago, IL",
   dates: "March 2010"
 )
 
 #cv-entry(
-  title: "Cohort and Cultural Effects on Unconventional Political Behavior in the Islamic World",
+  title: "“Cohort and Cultural Effects on Unconventional Political Behavior in the Islamic World”",
   organization: "Midwest Political Science Association Annual Meetings",
   location: "Chicago, IL",
   dates: "April 2009"
 )
 
 #cv-entry(
-  title: "Muslims in Dixie: Southern Distinctiveness or Religious Uniformity?",
+  title: "“Muslims in Dixie: Southern Distinctiveness or Religious Uniformity?”",
   organization: "Midwest Political Science Association Annual Meetings (with William P. McLean)",
   location: "Chicago, IL",
   dates: "April 2009",
@@ -1006,98 +1006,98 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 
 ```{=typst}
 #cv-entry(
-  title: "Rural Election Administration",
+  title: "“Rural Election Administration”",
   organization: "EAC + MIT Data Summit",
   dates: "2025"
 )
 
 #cv-entry(
-  title: "Rural Election Administration",
+  title: "“Rural Election Administration”",
   organization: "Hubert H. Humphrey School of Public Affairs | CEA Webinar",
   dates: "2023"
 )
 
 #cv-entry(
-  title: "On the Interpretation and Application of Spatial Regression Models in Political Science",
+  title: "“On the Interpretation and Application of Spatial Regression Models in Political Science”",
   organization: "The International Methods Colloquium",
   dates: "2021"
 )
 
 #cv-entry(
-  title: "Experiential Learning in Political Science: A Pandemic Roundtable",
+  title: "“Experiential Learning in Political Science: A Pandemic Roundtable”",
   organization: "Virtual Roundtable at Arkansas Political Science Association",
   dates: "2021"
 )
 
 #cv-entry(
-  title: "The Challenges of Teaching and Learning Methods in the Virtual Classroom during the COVID-19 Pandemic",
+  title: "“The Challenges of Teaching and Learning Methods in the Virtual Classroom during the COVID-19 Pandemic”",
   organization: "Virtual Roundtable at Universidade de São Paulo",
   dates: "2021"
 )
 
 #cv-entry(
-  title: "Professional Pathways",
+  title: "“Professional Pathways”",
   organization: "Texas A&M University",
   dates: "2020"
 )
 
 #cv-entry(
-  title: "Simplifying the Analysis of Spatial Interdependence in Political Science",
+  title: "“Simplifying the Analysis of Spatial Interdependence in Political Science”",
   organization: "Instituto de Ciencias de Gobierno y Desarrollo Estratégico",
   location: "Puebla, Mexico",
   dates: "2020"
 )
 
 #cv-entry(
-  title: "Lightning Talk on MIT Election Lab",
+  title: "“Lightning Talk on MIT Election Lab”",
   organization: "Harvard University",
   dates: "2018"
 )
 
 #cv-entry(
-  title: "The Elections Performance Index: Future Directions",
+  title: "“The Elections Performance Index: Future Directions”",
   organization: "University of Wisconsin—Madison",
   dates: "2018"
 )
 
 #cv-entry(
-  title: "Professional Pathways",
+  title: "“Professional Pathways”",
   organization: "American University",
   dates: "2017"
 )
 
 #cv-entry(
-  title: "Government Contracting",
+  title: "“Government Contracting”",
   organization: "American University",
   dates: "2016 & 2017"
 )
 
 #cv-entry(
-  title: "Introduction to Spatial Econometrics",
+  title: "“Introduction to Spatial Econometrics”",
   organization: "Texas A&M University",
   dates: "2014"
 )
 
 #cv-entry(
-  title: "Using Technology to Overcome Collective Action Problems: A Spatial Analysis of Anti-Government Violence",
+  title: "“Using Technology to Overcome Collective Action Problems: A Spatial Analysis of Anti-Government Violence”",
   organization: "University of Arkansas",
   dates: "2013"
 )
 
 #cv-entry(
-  title: "Lessons from Fieldwork in The Sudan",
+  title: "“Lessons from Fieldwork in The Sudan”",
   organization: "Arkansas State University",
   dates: "2011"
 )
 
 #cv-entry(
-  title: "Terrorism and the Middle East",
+  title: "“Terrorism and the Middle East”",
   organization: "Arkansas State University",
   dates: "2009"
 )
 
 #cv-entry(
-  title: "Introduction to Islamic Politics",
+  title: "“Introduction to Islamic Politics”",
   organization: "Arkansas State University",
   dates: "2009"
 )
