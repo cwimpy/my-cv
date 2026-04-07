@@ -283,7 +283,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Arkansas State University Research Technology and Transfer",
   dates: "2025",
   amount: "$225,000",
-  description: ""
 )
 
 #cv-entry(
@@ -291,7 +290,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Election Trust Initiative",
   dates: "2025",
   amount: "$47,612",
-  description: ""
 )
 
 #cv-entry(
@@ -299,7 +297,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Rutgers University (Sub-grant from MIT and Election Trust Initiative)",
   dates: "2023",
   amount: "$10,000",
-  description: ""
 )
 
 #cv-entry(
@@ -307,7 +304,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "MIT Election Data and Science Lab and Election Trust Initiative",
   dates: "2022",
   amount: "$95,173",
-  description: ""
 )
 
 #cv-entry(
@@ -315,7 +311,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Arkansas Department of Health (CDC sub-award, co-PI with Amanda M. Carpenter)",
   dates: "2022",
   amount: "$32,042",
-  description: ""
 )
 
 #cv-entry(
@@ -323,7 +318,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Arkansas State University Faculty Research Grant (co-PI with William P. McLean)",
   dates: "2021",
   amount: "$10,000",
-  description: ""
 )
 
 #cv-entry(
@@ -331,7 +325,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Arkansas Biosciences Institute (co-PI with Amanda M. Carpenter)",
   dates: "2020",
   amount: "$12,583",
-  description: ""
 )
 
 #cv-entry(
@@ -339,7 +332,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Texas A&M University",
   dates: "2014",
   amount: "$6,331",
-  description: ""
 )
 
 #cv-entry(
@@ -347,7 +339,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Texas A&M University (with Kenneth J. Meier)",
   dates: "2013",
   amount: "$2,000",
-  description: ""
 )
 
 #cv-entry(
@@ -355,7 +346,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Texas A&M University",
   dates: "2013",
   amount: "$5,000",
-  description: ""
 )
 
 #cv-entry(
@@ -363,7 +353,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Texas A&M University",
   dates: "2012",
   amount: "$4,000",
-  description: ""
 )
 
 #cv-entry(
@@ -371,7 +360,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Texas A&M University",
   dates: "2010–2011",
   amount: "$5,000",
-  description: ""
 )
 
 #cv-entry(
@@ -379,7 +367,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Arkansas State University",
   dates: "2009",
   amount: "$5,000",
-  description: ""
 )
 
 #cv-entry(
@@ -387,7 +374,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Arkansas State University",
   dates: "2006",
   amount: "$5,000",
-  description: ""
 )
 #pagebreak()
 ```
@@ -400,7 +386,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Election Sciences, Reform, and Administration Conference (with Ellie Foote and William McLean)",
   location: "Athens, GA",
   dates: "June 2023",
-  description: ""
 )
 
 #cv-entry(
@@ -408,7 +393,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Election Sciences, Reform, and Administration Conference (with William McLean)", 
   location: "Athens, GA",
   dates: "June 2023",
-  description: ""
 )
 
 #cv-entry(
@@ -423,7 +407,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Texas A&M University European Union Center Conference on Analyzing Compositional Variables in the Study of Politics and Policy (with Clayton Webb)",
   location: "College Station, TX",
   dates: "June 2022",
-  description: ""
 )
 
 #cv-entry(
@@ -431,7 +414,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "American Public Health Association Annual Meetings (with Amanda Carpenter)",
   location: "Virtual Presentation",
   dates: "October 2021",
-  description: ""
 )
 
 #cv-entry(
@@ -439,7 +421,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "American Public Health Association Annual Meetings (with Amanda Carpenter)",
   location: "Virtual Presentation", 
   dates: "October 2021",
-  description: ""
 )
 
 #cv-entry(
@@ -447,7 +428,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Midwest Political Science Association Annual Meetings (with Murat Abus)",
   location: "Virtual Presentation",
   dates: "April 2021",
-  description: ""
 )
 
 #cv-entry(
@@ -455,7 +435,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Arkansas Political Science Association Annual Meetings (with William McLean)",
   location: "Virtual Presentation",
   dates: "February 2021",
-  description: ""
 )
 
 #cv-entry(
@@ -463,7 +442,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Society for Political Methodology Annual Meetings (with Clayton Webb)",
   location: "Virtual Presentation", 
   dates: "July 2020",
-  description: ""
 )
 
 #cv-entry(
@@ -471,7 +449,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Society for Political Methodology Annual Meetings (with Andrea Junqueira, Ali Kagalwala, Guy D. Whitten, and Laron K. Williams)",
   location: "Virtual Presentation",
   dates: "July 2020",
-  description: ""
 )
 
 #cv-entry(
@@ -486,7 +463,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Southern Political Science Association Annual Meetings (with William McLean)",
   location: "Austin, TX",
   dates: "January 2019",
-  description: ""
 )
 
 #cv-entry(
@@ -494,7 +470,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "American Political Science Association Annual Meetings (with Kenneth J. Meier, Mallory Compton, John Polga-Hecimovich, and Miyeon Song)",
   location: "Boston, MA",
   dates: "September 2018",
-  description: ""
 )
 
 #cv-entry(
@@ -509,7 +484,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Midwest Political Science Association Annual Meetings (with Charles Stewart III)",
   location: "Chicago, IL",
   dates: "April 2018",
-  description: ""
 )
 
 #cv-entry(
@@ -517,7 +491,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Midwest Political Science Association Annual Meetings (with Kenneth J. Meier)",
   location: "Chicago, IL",
   dates: "April 2018",
-  description: ""
 )
 
 #cv-entry(
@@ -525,7 +498,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Midwest Political Science Association Annual Meetings (with William McLean)",
   location: "Chicago, IL",
   dates: "April 2018",
-  description: ""
 )
 
 #cv-entry(
@@ -533,7 +505,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Modeling Politics & Policy in Time and Space Conference (with Guy D. Whitten and Laron K. Williams)",
   location: "College Station, TX",
   dates: "April 2017",
-  description: ""
 )
 
 #cv-entry(
@@ -548,7 +519,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "American Political Science Association Annual Meetings (with Flávio Da Silva Souza, Chris McKallagat, and Jenifer Whitten-Woodring)",
   location: "San Francisco, CA",
   dates: "September 2015",
-  description: ""
 )
 
 #cv-entry(
@@ -556,7 +526,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "American Political Science Association Annual Meetings (with Thad Hall)",
   location: "San Francisco, CA",
   dates: "September 2015",
-  description: ""
 )
 
 #cv-entry(
@@ -564,7 +533,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Midwest Political Science Association Annual Meetings (with Laron K. Williams and Guy D. Whitten)",
   location: "Chicago, IL",
   dates: "April 2015",
-  description: ""
 )
 
 #cv-entry(
@@ -572,7 +540,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Robustness Testing and the Empirical Analysis of Observational Data Workshop (with Laron K. Williams and Guy D. Whitten)",
   location: "Cologne, Germany",
   dates: "September 2014",
-  description: ""
 )
 
 #cv-entry(
@@ -580,7 +547,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Midwest Political Science Association Annual Meetings (with Guy D. Whitten)",
   location: "Chicago, IL",
   dates: "April 2014",
-  description: ""
 )
 
 #cv-entry(
@@ -651,7 +617,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
   organization: "Midwest Political Science Association Annual Meetings (with William P. McLean)",
   location: "Chicago, IL",
   dates: "April 2009",
-  description: ""
 )
 ```
 # Teaching
@@ -1144,11 +1109,6 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 #cv-entry(
   title: "Languages",
   description: "Arabic (Intermediate Modern Standard, Colloquial Gulf, and Yemeni dialects)"
-)
-
-#cv-entry(
-  title: "Certifications",
-  description: "IRB CITI human subjects research certification, NIH human subjects research certification"
 )
 
 #cv-entry(

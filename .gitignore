@@ -51,5 +51,12 @@ rsconnect/
 # DS_Store
 .DS_Store
 
-# Quarto mediabag
+# Quarto
+.quarto/
 *_files/
+
+# Rendered PDF
+*.pdf
+
+/.quarto/
+**/*.quarto_ipynb
