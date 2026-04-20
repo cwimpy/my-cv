@@ -397,16 +397,21 @@
     if "journal" in entry {
       citation = citation + text(style: "italic")[#str(entry.journal)]
     }
-    if "volume" in entry {
-      citation = citation + " " + str(entry.volume)
-    }
-    if "number" in entry {
-      citation = citation + " (" + str(entry.number) + ")"
-    }
-    if "pages" in entry {
-      citation = citation + ": " + str(entry.pages).replace("--", "–") + "."
+    let is_forthcoming = "note" in entry and lower(str(entry.note)).contains("forthcoming")
+    if is_forthcoming {
+      citation = citation + " (forthcoming)."
     } else {
-      citation = citation + "."
+      if "volume" in entry {
+        citation = citation + " " + str(entry.volume)
+      }
+      if "number" in entry {
+        citation = citation + " (" + str(entry.number) + ")"
+      }
+      if "pages" in entry {
+        citation = citation + ": " + str(entry.pages).replace("--", "–") + "."
+      } else {
+        citation = citation + "."
+      }
     }
   } else if entry.type == "incollection" {
     if "title" in entry {

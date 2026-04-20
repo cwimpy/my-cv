@@ -55,7 +55,7 @@ papersize: us-letter
   organization: "Arkansas State University",
   location: "Jonesboro, AR",
   dates: "2019–2023",
-  description: "Affiliate faculty with the Center for No Boundary Thinking"
+  description: "Affiliate faculty with the Center for No Boundary Thinking",
 )
 
 #cv-entry(
@@ -66,7 +66,14 @@ papersize: us-letter
 )
 
 #cv-entry(
-  title: "Pre/Post-Doctoral Researcher in Political Science",
+  title: "Senior Researcher",
+  organization: "Fors Marsh",
+  location: "Arlington, VA",
+  dates: "2015–2017",
+)
+
+#cv-entry(
+  title: "Postdoctoral Researcher in Political Science",
   organization: "Texas A&M University",
   location: "College Station, TX",
   dates: "2013–2014",
@@ -273,7 +280,7 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 ## Research Interests
 
 ```{=typst}
-#service-list(("Comparative Public Administration & Policy", "Election Administration", "Political Economy", "Political Methodology", "Spatial Econometrics"))
+#service-list(("Comparative Public Administration and Policy", "Election Administration", "Political Economy", "Political Methodology", "Spatial Econometrics"))
 ```
 # Grants
 
@@ -281,14 +288,14 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 #cv-entry(
   title: "Institute for Rural Initiatives Startup Funding",
   organization: "Arkansas State University Research Technology and Transfer",
-  dates: "2025",
+  dates: "2025–2028",
   amount: "$225,000",
 )
 
 #cv-entry(
   title: "Election Trust Initiative",
   organization: "Election Trust Initiative",
-  dates: "2025",
+  dates: "2025–2026",
   amount: "$47,612",
 )
 
@@ -632,78 +639,66 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 #teaching-entry(
   course: "POSC 4003, Elections and Voting in the United States",
   institution: "Arkansas State University",
-  terms: ""
 )
 
 #teaching-entry(
   course: "POSC 6613, Administrative Leadership",
   institution: "Arkansas State University",
-  terms: ""
 )
 
 #teaching-entry(
   course: "POSC 4003, Terrorism and Political Violence",
   institution: "Arkansas State University",
-  terms: ""
 )
 
 #teaching-entry(
   course: "POSC 4313, International Organization",
-  institution: "Arkansas State University", 
-  terms: ""
+  institution: "Arkansas State University",
 )
 
 #teaching-entry(
   course: "POSC 4003, Data Visualization for Social Science",
   institution: "Arkansas State University",
-  terms: ""
 )
 
 #teaching-entry(
   course: "POSC 3303, Introduction to International Politics",
   institution: "Arkansas State University",
-  terms: ""
 )
 
 #teaching-entry(
   course: "POSC 6013, Advanced Political Analysis",
   institution: "Arkansas State University",
-  terms: ""
 )
 
 #teaching-entry(
   course: "POSC 680V, Seminar in Political Economy",
   institution: "Arkansas State University",
-  terms: ""
 )
 
 #teaching-entry(
   course: "POSC 3213, African Political Systems",
   institution: "Arkansas State University",
-  terms: ""
 )
 
 #teaching-entry(
   course: "POSC 4323/5323, Foreign Policy Analysis",
   institution: "Arkansas State University",
-  terms: ""
 )
 
 #teaching-entry(
   course: "POSC 1303, Introduction to Model U.N.",
   institution: "Arkansas State University",
-  terms: ""
 )
 
 #teaching-entry(
   course: "POSC 3003, Introduction to Political Analysis", 
   institution: "Arkansas State University",
-  terms: ""
 )
 
 #teaching-entry(
   course: "Modern Regression Analysis",
-  institution: "FLACSO University | IPSA methods workshop, team taught with Laron Williams",
+  institution: "FLACSO University | IPSA methods workshop, team taught with Laron K. Williams",
 )
 
 #teaching-entry(
@@ -724,19 +719,16 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 #teaching-entry(
   course: "POSC 3203, Introduction to Comparative Politics",
   institution: "Arkansas State University",
-  terms: ""
 )
 
 #teaching-entry(
   course: "A Scientific Approach to Qualitative Data Analysis",
   institution: "Texas A&M University",
-  terms: ""
 )
 
 #teaching-entry(
   course: "POLS 325, African Politics",
   institution: "Texas A&M University",
-  terms: ""
 )
 
 #teaching-entry(
@@ -752,19 +744,16 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 #teaching-entry(
   course: "POSC 3313, American Foreign Policy",
   institution: "Arkansas State University",
-  terms: ""
 )
 
 #teaching-entry(
   course: "PS 1010, American National Government",
   institution: "Wayne State University",
-  terms: ""
 )
 
 #teaching-entry(
   course: "POSC 2103, Introduction to United States Government",
   institution: "Arkansas State University",
-  terms: ""
 )
 ```
 # Fellowships, Honors & Awards
@@ -807,15 +796,15 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 )
 
 #cv-entry(
-  title: "Fulbright Finalist, Syria",
-  organization: "U.S. State Department", 
-  dates: "2006"
-)
-
-#cv-entry(
   title: "Graduate research/teaching assistantship",
   organization: "Arkansas State University",
   dates: "2007–2009"
+)
+
+#cv-entry(
+  title: "Fulbright Finalist, Syria",
+  organization: "U.S. State Department",
+  dates: "2006"
 )
 ```
 # Professional Memberships & Service
@@ -834,7 +823,7 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 )
 
 #cv-entry(
-  title: "Reviewer", 
+  title: "Reviewer",
   organization: "Science of Science: Discovery, Communication and Impact (SoS:DCI)",
   dates: "Current"
 )
@@ -858,33 +847,21 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 )
 
 #cv-entry(
-  title: "Member, Cluster Hire in Artificial Intelligence Search Committee",
-  organization: "Arkansas State University",
-  dates: "2022"
-)
-
-#cv-entry(
   title: "Chair, Middle East Studies Committee",
   organization: "Arkansas State University",
   dates: "2022–"
 )
 
 #cv-entry(
-  title: "Member, BS in Data Science & Analytics Steering Committee", 
+  title: "Member, Cluster Hire in Artificial Intelligence Search Committee",
+  organization: "Arkansas State University",
+  dates: "2022"
+)
+
+#cv-entry(
+  title: "Member, BS in Data Science & Analytics Steering Committee",
   organization: "Arkansas State University",
   dates: "2021–2022"
-)
-
-#cv-entry(
-  title: "Chair, Committee to Develop a Rural Studies Center",
-  organization: "Arkansas State University",
-  dates: "2020–2022"
-)
-
-#cv-entry(
-  title: "Member, Executive Committee",
-  organization: "Southwest Political Science Association",
-  dates: "2020–2022"
 )
 
 #cv-entry(
@@ -900,6 +877,24 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 )
 
 #cv-entry(
+  title: "Chair, Committee to Develop a Rural Studies Center",
+  organization: "Arkansas State University",
+  dates: "2020–2022"
+)
+
+#cv-entry(
+  title: "Member, Executive Committee",
+  organization: "Southwest Political Science Association",
+  dates: "2020–2022"
+)
+
+#cv-entry(
+  title: "Member, Computers and Technology Committee",
+  organization: "Arkansas State University",
+  dates: "2020–"
+)
+
+#cv-entry(
   title: "Chair, BS in Political Science Methodology sub-Committee",
   organization: "Arkansas State University",
   dates: "2020"
@@ -912,21 +907,9 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 )
 
 #cv-entry(
-  title: "Member, Computers and Technology Committee",
+  title: "Chair, BS in Data Science: Data Visualization sub-Committee",
   organization: "Arkansas State University",
-  dates: "2020–"
-)
-
-#cv-entry(
-  title: "Member, Hearing Committee for College of Liberal Arts and Communication",
-  organization: "Arkansas State University",
-  dates: "2019–2020"
-)
-
-#cv-entry(
-  title: "Member, Undergraduate Enrollment and Academic Policy",
-  organization: "Arkansas State University",
-  dates: "2019–2021"
+  dates: "2020"
 )
 
 #cv-entry(
@@ -954,9 +937,15 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 )
 
 #cv-entry(
-  title: "Chair, BS in Data Science: Data Visualization sub-Committee",
+  title: "Member, Undergraduate Enrollment and Academic Policy",
   organization: "Arkansas State University",
-  dates: "2020"
+  dates: "2019–2021"
+)
+
+#cv-entry(
+  title: "Member, Hearing Committee for College of Liberal Arts and Communication",
+  organization: "Arkansas State University",
+  dates: "2019–2020"
 )
 
 #cv-entry(
@@ -966,20 +955,14 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 )
 
 #cv-entry(
-  title: "Peer Reviewer",
-  organization: [#text(style: "italic")[Administration and Society], #text(style: "italic")[Comparative Political Studies], #text(style: "italic")[Conflict Management and Peace Science], #text(style: "italic")[Election Law Journal], #text(style: "italic")[Electoral Studies], #text(style: "italic")[International Political Science Review], #text(style: "italic")[International Review of Administrative Sciences], #text(style: "italic")[Journal of Policy Studies], #text(style: "italic")[Policy Studies], #text(style: "italic")[Journal of Politics], #text(style: "italic")[Political Analysis], #text(style: "italic")[Political Science Research and Methods]],
-  dates: ""
-)
-
-#cv-entry(
   title: "AP Exam Reader",
   organization: "ETS/College Board",
   dates: "2008–2013"
 )
 
 #cv-entry(
-  title: "Credentialed Observer",
-  organization: "2009 Mozambican National Elections, 2011 South Sudan Referendum on Secession",
+  title: "Peer Reviewer",
+  organization: [#text(style: "italic")[Administration and Society], #text(style: "italic")[Comparative Political Studies], #text(style: "italic")[Conflict Management and Peace Science], #text(style: "italic")[Election Law Journal], #text(style: "italic")[Electoral Studies], #text(style: "italic")[International Political Science Review], #text(style: "italic")[International Review of Administrative Sciences], #text(style: "italic")[Journal of Policy Studies], #text(style: "italic")[Policy Studies], #text(style: "italic")[Journal of Politics], #text(style: "italic")[Political Analysis], #text(style: "italic")[Political Science Research and Methods]],
   dates: ""
 )
 
@@ -999,6 +982,12 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 #cv-entry(
   title: "Panel Chair",
   organization: "2009 SWPSA, 2017 MPSA, 2018 MPSA, 2019 SPSA",
+  dates: ""
+)
+
+#cv-entry(
+  title: "Credentialed Observer",
+  organization: "2009 Mozambican National Elections, 2011 South Sudan Referendum on Secession",
   dates: ""
 )
 ```
@@ -1119,7 +1108,7 @@ if (bib_loaded && !is.null(bib) && length(bib) > 0) {
 #cv-entry(
   title: "Software",
   description: {
-    "GIS, HTML, " + LaTeX + ", MacRATS, Mata, Nvivo, Python, R, SPSS, Stata"
+    "Git, GIS, HTML, " + LaTeX + ", Mata, NVivo, Python, Quarto, R, SPSS, Stata, Typst"
   }
 )
 ```
